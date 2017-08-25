@@ -1,0 +1,24 @@
+{block content}
+<div class="row">
+	<div class="col">
+		<a n:href="game" class="btn btn-primary">Nová hra</a>
+	</div>
+	<div>
+		<a n:href="admin">Administrace</a>
+	</div>
+</div>
+
+
+Nejlepší hráči:
+<table class="table">
+	<tr>
+		<th>Hráč</th>
+		<th>Datum</th>
+		<th>Bodů</th>
+	</tr>
+	<tr n:foreach="$games as $game">
+		<td>{$game['user_id']}</td>
+		<td>{$game['start_time']|date:"d. m. Y"} <small>{$game['start_time']|date:"H:i"}</small></td>
+		<td>{$game['result_points']}</td>
+	</tr>
+</table>

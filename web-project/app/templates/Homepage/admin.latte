@@ -1,0 +1,23 @@
+{block content}
+<a n:href="default">Zpět</a><br>
+<a n:href="addThing" class="btn btn-primary">Přidat věc</a>
+
+<table class="table">
+	<tr>
+		<th>ID</th>
+		<th>Nazev</th>
+		<th>Hint</th>
+		<th>Obrazek</th>
+		<th></th>
+	</tr>
+	<tr n:foreach="$things as $thing">
+		<td>{$thing['id']}</td>
+		<td>{$thing['name']}</td>
+		<td>{$thing['hint']}</td>
+		<td><img src="{$baseUri}/images/kufr/{$thing['path']}/original_image.jpg" style="max-width:100px"></td>
+		<td>
+			<a n:href="editThing, id => $thing['id']">Edit</a>
+			<a n:href="deleteThing, id => $thing['id']">Delete</a>
+		</td>
+	</tr>
+</table>

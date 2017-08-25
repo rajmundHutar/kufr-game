@@ -1,0 +1,37 @@
+{block content}
+<a n:href="default">Zpět</a>
+<h2>Výsledky:</h2>
+<table class="table">
+	<tr>
+		<th>Položka</th>
+		<th>Obrázek</th>
+		<th>Pokusů (1b)</th>
+		<th>Odkrytých políček (2b)</th>
+		<th>Použitá nápověda (5b)</th>
+		<th>Trestné body</th>
+	</tr>
+	<tr n:foreach="$levels as $level">
+		<td>
+			{$things[$level['thing_id']]['name']}
+		</td>
+		<td>
+			<img src="{$baseUri}/images/kufr/{$things[$level['thing_id']]['path']}/original_image.jpg" style="max-width: 100px;">
+		</td>
+		<td>
+			{$level['guesses']}
+		</td>
+		<td>
+			{count($level['unhide'])}
+		</td>
+		<td>
+			{$level['used_hint'] ? "Ano" : "Ne"}
+		</td>
+		<td>
+			{$level['points']}
+		</td>
+	</tr>
+	<tr>
+		<th colspan="5">Celkem:</th>
+		<th>{$game['result_points']}</th>
+	</tr>
+</table>

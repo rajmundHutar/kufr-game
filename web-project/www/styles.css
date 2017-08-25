@@ -1,0 +1,20 @@
+.game-row div.cell {
+    display: table-cell;
+    width: 200px;
+    height: 200px;
+    background-color: #0066BB;
+    border: 1px solid black;
+}
+.game-row div.cell > div{
+    width: 200px;
+    height: 200px;
+}
+.game-row img {
+    display: table-cell;
+}
+
+.game-row a {
+    display: block;
+    width: 200px;
+    height: 200px;
+}

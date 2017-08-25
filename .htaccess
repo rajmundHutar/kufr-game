@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule (.*) web-project/www/$1 [L]
+
+php_flag opcache.enable Off 

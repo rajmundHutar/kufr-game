@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+	      integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link href="{$baseUri}/styles.css" rel="stylesheet" type="text/css"/>
+
+	<title>{ifset title}{include title|stripHtml} | {/ifset}Hra Kufr</title>
+</head>
+
+<body>
+<div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
+<div class="container">
+	{include content}
+</div>
+
+{block scripts}
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+	        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+	        crossorigin="anonymous"></script>
+	<script src="https://nette.github.io/resources/js/netteForms.min.js"></script>
+	<script src="{$baseUri}/js/nette.ajax.js"></script>
+	<script>
+        $(function () {
+            $.nette.init();
+        });
+	</script>
+{/block}
+</body>
+</html>

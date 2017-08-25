@@ -1,0 +1,64 @@
+{block content}
+
+<h2>{$currLevel}/{$levelsPerGame}</h2>
+
+{snippetArea wrapper}
+	{for $row = 0; $row < 4; $row++}
+		<div class="game-row">
+			{for $col = 0; $col < 6; $col++}
+				{var $item = $col . "x" . $row}
+				<div class="cell">
+					{snippet $item}
+						{if in_array($item, $level['unhide'])}
+							<img src="{link ImageProxy, slug => $slug, x => $col, y => $row}">
+						{else}
+							<a class="ajax" n:href="unhide!, slug => $slug, x => $col, y => $row">
+								<div></div>
+							</a>
+						{/if}
+					{/snippet}
+				</div>
+			{/for}
+		</div>
+	{/for}
+{/snippetArea}
+
+{snippet scoring}
+	<div class="row">
+		<div class="col-3">
+			Pokusů:
+			<div>{$level['guesses']}</div>
+			Odkryto:
+			<div>{count($level['unhide'])}</div>
+			Body:
+			<div>{$points}</div>
+
+			{if $result != "correct"}
+				{if !$level['used_hint']}
+					<div><a n:href="useHint!, slug => $slug" class="ajax btn btn-success">Získat nápovědu (5b.)</a>
+					</div>
+				{else}
+					Nápověda: <div>{$thing['hint']}</div>
+				{/if}
+			{/if}
+		</div>
+		<div class="col-9">
+			{if $result != "correct"}
+				{form guessForm, class => "ajax"}
+					<div class="form-group">
+						{input guess, class => "form-control", autocomplete => "off"}
+						{input submit, class => "btn btn-primary"}
+					</div>
+
+				{/form}
+			{/if}
+			{if $result}
+				<h3>{App\Model\KufrGameModel::getResultText($result)}</h3>
+				{if $result == "correct"}
+					<a n:href="nextLevel, slug => $slug" class="btn btn-primary">Pokračovat</a>
+				{/if}
+			{/if}
+		</div>
+	</div>
+{/snippet}
+
