@@ -16,8 +16,8 @@ msgstr ""
 "X-Crowdin-Project: mergado\n"
 "X-Crowdin-Project-ID: 438154\n"
 "X-Crowdin-Language: pl\n"
-"X-Crowdin-File: /l10n/web-project/lang/pl_PL/LC_MESSAGES/feedaudit.validators.po\n"
-"X-Crowdin-File-ID: 36\n"
+"X-Crowdin-File: /l10n/web-project/lang/sk_SK/LC_MESSAGES/feedaudit.validators.po\n"
+"X-Crowdin-File-ID: 40\n"
 
 msgid "feedaudit.validators.barcode_barcode.invalid.message"
 msgstr ""
@@ -29,6 +29,9 @@ msgid "feedaudit.validators.barcode_ean.invalid.help"
 msgstr ""
 
 msgid "feedaudit.validators.barcode_ean.invalid.example"
+msgstr ""
+
+msgid "feedaudit.validators.barcode_ean.invalid.link"
 msgstr ""
 
 msgid "feedaudit.validators.barcode_gtin.invalid.message"
@@ -47,12 +50,6 @@ msgid "feedaudit.validators.barcode_isbn.invalid.example"
 msgstr ""
 
 msgid "feedaudit.validators.barcode_productno.invalid.message"
-msgstr ""
-
-msgid "feedaudit.validators.barcode_productno.invalid.help"
-msgstr ""
-
-msgid "feedaudit.validators.barcode_productno.invalid.example"
 msgstr ""
 
 msgid "feedaudit.validators.blacklist_delivery_date_eight_heureka.forbidden.message"
@@ -175,13 +172,7 @@ msgstr ""
 msgid "feedaudit.validators.blacklist_url_product.forbidden.message"
 msgstr ""
 
-msgid "feedaudit.validators.blacklist_url_product.forbidden.help"
-msgstr ""
-
 msgid "feedaudit.validators.blacklist_url_productname.forbidden.message"
-msgstr ""
-
-msgid "feedaudit.validators.blacklist_url_productname.forbidden.help"
 msgstr ""
 
 msgid "feedaudit.validators.blacklist_url_productnameext.forbidden.message"
@@ -208,6 +199,9 @@ msgstr ""
 msgid "feedaudit.validators.categorytext.multiple_elements.message"
 msgstr ""
 
+msgid "feedaudit.validators.categorytext.multiple_elements.link"
+msgstr ""
+
 msgid "feedaudit.validators.categorytext.redundant_separators.message"
 msgstr ""
 
@@ -220,6 +214,9 @@ msgstr ""
 msgid "feedaudit.validators.categorytext.single_category.example"
 msgstr ""
 
+msgid "feedaudit.validators.categorytext.single_category.youtube"
+msgstr ""
+
 msgid "feedaudit.validators.categorytext.wrong_format.message"
 msgstr ""
 
@@ -227,6 +224,9 @@ msgid "feedaudit.validators.categorytext.wrong_format.help"
 msgstr ""
 
 msgid "feedaudit.validators.categorytext.wrong_format.example"
+msgstr ""
+
+msgid "feedaudit.validators.categorytext.wrong_format.youtube"
 msgstr ""
 
 msgid "feedaudit.validators.categorytext_category.invalid_separator.message"
@@ -265,6 +265,9 @@ msgstr ""
 msgid "feedaudit.validators.categorytext_heureka.multiple_elements.help"
 msgstr ""
 
+msgid "feedaudit.validators.categorytext_heureka.multiple_elements.link"
+msgstr ""
+
 msgid "feedaudit.validators.categorytext_heureka.redundant_separators.message"
 msgstr ""
 
@@ -283,6 +286,9 @@ msgstr ""
 msgid "feedaudit.validators.categorytext_heureka.single_category.example"
 msgstr ""
 
+msgid "feedaudit.validators.categorytext_heureka.single_category.youtube"
+msgstr ""
+
 msgid "feedaudit.validators.categorytext_heureka.wrong_format.message"
 msgstr ""
 
@@ -290,6 +296,9 @@ msgid "feedaudit.validators.categorytext_heureka.wrong_format.help"
 msgstr ""
 
 msgid "feedaudit.validators.categorytext_heureka.wrong_format.example"
+msgstr ""
+
+msgid "feedaudit.validators.categorytext_heureka.wrong_format.youtube"
 msgstr ""
 
 msgid "feedaudit.validators.categorytext_product_type.invalid_separator.message"
@@ -341,6 +350,9 @@ msgid "feedaudit.validators.contains_element_product_productname.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.contains_element_product_productname.wrong.example"
+msgstr ""
+
+msgid "feedaudit.validators.contains_element_product_productname.wrong.link"
 msgstr ""
 
 msgid "feedaudit.validators.contains_letter_fb_title.not_present.message"
@@ -622,6 +634,9 @@ msgstr ""
 msgid "feedaudit.validators.delivery.wrong_delivery_price.message"
 msgstr ""
 
+msgid "feedaudit.validators.delivery.wrong_delivery_price.youtube"
+msgstr ""
+
 msgid "feedaudit.validators.delivery.wrong_delivery_price_cod.message"
 msgstr ""
 
@@ -695,6 +710,9 @@ msgid "feedaudit.validators.description.contains_html.help"
 msgstr ""
 
 msgid "feedaudit.validators.description.contains_html.example"
+msgstr ""
+
+msgid "feedaudit.validators.description.contains_html.link"
 msgstr ""
 
 msgid "feedaudit.validators.description.contains_string.message"
@@ -925,6 +943,12 @@ msgstr ""
 msgid "feedaudit.validators.enum_identifier_exists.wrong.message"
 msgstr ""
 
+msgid "feedaudit.validators.enum_identifier_exists.wrong.help"
+msgstr ""
+
+msgid "feedaudit.validators.enum_identifier_exists.wrong.link"
+msgstr ""
+
 msgid "feedaudit.validators.enum_instock.wrong.message"
 msgstr ""
 
@@ -964,16 +988,10 @@ msgstr ""
 msgid "feedaudit.validators.enum_mergado_starter.wrong.help"
 msgstr ""
 
-msgid "feedaudit.validators.enum_mergado_starter.wrong.example"
-msgstr ""
-
 msgid "feedaudit.validators.enum_mergado_topseller.wrong.message"
 msgstr ""
 
 msgid "feedaudit.validators.enum_mergado_topseller.wrong.help"
-msgstr ""
-
-msgid "feedaudit.validators.enum_mergado_topseller.wrong.example"
 msgstr ""
 
 msgid "feedaudit.validators.enum_shopalike_energy_label.wrong.message"
@@ -1057,10 +1075,16 @@ msgstr ""
 msgid "feedaudit.validators.google_mpn_gtin.missing_false.help"
 msgstr ""
 
+msgid "feedaudit.validators.google_mpn_gtin.missing_false.link"
+msgstr ""
+
 msgid "feedaudit.validators.google_mpn_gtin.redundant_false.message"
 msgstr ""
 
 msgid "feedaudit.validators.google_mpn_gtin.redundant_false.help"
+msgstr ""
+
+msgid "feedaudit.validators.google_mpn_gtin.redundant_false.link"
 msgstr ""
 
 msgid "feedaudit.validators.http.error.message"
@@ -1118,9 +1142,6 @@ msgid "feedaudit.validators.is_number_availability.nan.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_availability.nan.help"
-msgstr ""
-
-msgid "feedaudit.validators.is_number_availability.nan.example"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_availability.wrong.message"
@@ -1717,6 +1738,9 @@ msgstr ""
 msgid "feedaudit.validators.is_number_miinto_stock.nan.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_number_miinto_stock.nan.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_number_miinto_stock.wrong.message"
 msgstr ""
 
@@ -1981,46 +2005,46 @@ msgstr ""
 msgid "feedaudit.validators.is_number_retail_price_dkk.nan.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_retail_price_dkk.wrong.message"
+msgid "feedaudit.validators.is_number_retail_price_dkk.nan.help"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_retail_price_dkk.wrong.help"
+msgid "feedaudit.validators.is_number_retail_price_dkk.wrong.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_retail_price_eur.nan.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_retail_price_eur.wrong.message"
+msgid "feedaudit.validators.is_number_retail_price_eur.nan.help"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_retail_price_eur.wrong.help"
+msgid "feedaudit.validators.is_number_retail_price_eur.wrong.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_retail_price_nok.nan.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_retail_price_nok.wrong.message"
+msgid "feedaudit.validators.is_number_retail_price_nok.nan.help"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_retail_price_nok.wrong.help"
+msgid "feedaudit.validators.is_number_retail_price_nok.wrong.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_retail_price_pln.nan.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_retail_price_pln.wrong.message"
+msgid "feedaudit.validators.is_number_retail_price_pln.nan.help"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_retail_price_pln.wrong.help"
+msgid "feedaudit.validators.is_number_retail_price_pln.wrong.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_retail_price_sek.nan.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_retail_price_sek.wrong.message"
+msgid "feedaudit.validators.is_number_retail_price_sek.nan.help"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_retail_price_sek.wrong.help"
+msgid "feedaudit.validators.is_number_retail_price_sek.wrong.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_salesprice.nan.message"
@@ -2165,6 +2189,9 @@ msgid "feedaudit.validators.is_number_toll.wrong.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_toll.wrong.help"
+msgstr ""
+
+msgid "feedaudit.validators.is_number_toll.wrong.example"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_too_high_price.nan.message"
@@ -2344,6 +2371,9 @@ msgstr ""
 msgid "feedaudit.validators.is_present_additional_image_link_lower.missing.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_present_additional_image_link_lower.missing.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_present_age_group.missing.message"
 msgstr ""
 
@@ -2360,6 +2390,9 @@ msgid "feedaudit.validators.is_present_any_miinto_retail_price.missing.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_any_miinto_retail_price.missing.help"
+msgstr ""
+
+msgid "feedaudit.validators.is_present_any_miinto_retail_price.missing.example"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_any_price_price_vat.missing.message"
@@ -2383,25 +2416,49 @@ msgstr ""
 msgid "feedaudit.validators.is_present_art_beschreibung.missing.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_present_art_beschreibung.missing.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_present_art_img_url.missing.message"
+msgstr ""
+
+msgid "feedaudit.validators.is_present_art_img_url.missing.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_art_lieferkosten.missing.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_present_art_lieferkosten.missing.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_present_art_name.missing.message"
+msgstr ""
+
+msgid "feedaudit.validators.is_present_art_name.missing.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_art_nr.missing.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_present_art_nr.missing.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_present_art_preis.missing.message"
+msgstr ""
+
+msgid "feedaudit.validators.is_present_art_preis.missing.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_art_url.missing.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_present_art_url.missing.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_present_art_waehrung.missing.message"
+msgstr ""
+
+msgid "feedaudit.validators.is_present_art_waehrung.missing.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_availability.missing.message"
@@ -2423,6 +2480,9 @@ msgid "feedaudit.validators.is_present_brand_lower.missing.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_brand_lower.missing.help"
+msgstr ""
+
+msgid "feedaudit.validators.is_present_brand_lower.missing.link"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_brand_zbozi.missing.message"
@@ -2471,6 +2531,9 @@ msgid "feedaudit.validators.is_present_categorytext.missing.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_categorytext.missing.example"
+msgstr ""
+
+msgid "feedaudit.validators.is_present_categorytext.missing.youtube"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_categorytext_error.missing.message"
@@ -2563,6 +2626,9 @@ msgstr ""
 msgid "feedaudit.validators.is_present_delivery_cost.missing.help"
 msgstr ""
 
+msgid "feedaudit.validators.is_present_delivery_cost.missing.youtube"
+msgstr ""
+
 msgid "feedaudit.validators.is_present_delivery_cost_lower.missing.message"
 msgstr ""
 
@@ -2573,6 +2639,9 @@ msgid "feedaudit.validators.is_present_delivery_date.missing.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_delivery_date.missing.example"
+msgstr ""
+
+msgid "feedaudit.validators.is_present_delivery_date.missing.youtube"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_delivery_date_mandatory.missing.message"
@@ -2612,6 +2681,9 @@ msgid "feedaudit.validators.is_present_description_lower.missing.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_description_lower.missing.help"
+msgstr ""
+
+msgid "feedaudit.validators.is_present_description_lower.missing.example"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_designation.missing.message"
@@ -2707,6 +2779,9 @@ msgstr ""
 msgid "feedaudit.validators.is_present_google_brand.missing.help"
 msgstr ""
 
+msgid "feedaudit.validators.is_present_google_brand.missing.link"
+msgstr ""
+
 msgid "feedaudit.validators.is_present_google_description.missing.message"
 msgstr ""
 
@@ -2731,6 +2806,9 @@ msgstr ""
 msgid "feedaudit.validators.is_present_google_product_category.missing.help"
 msgstr ""
 
+msgid "feedaudit.validators.is_present_google_product_category.missing.youtube"
+msgstr ""
+
 msgid "feedaudit.validators.is_present_gtin.missing.message"
 msgstr ""
 
@@ -2744,6 +2822,9 @@ msgid "feedaudit.validators.is_present_heureka_cpc.missing.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_heureka_cpc.missing.example"
+msgstr ""
+
+msgid "feedaudit.validators.is_present_heureka_cpc.missing.link"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_id.missing.message"
@@ -2830,7 +2911,16 @@ msgstr ""
 msgid "feedaudit.validators.is_present_imgurl_alternative.missing.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_present_imgurl_alternative.missing.help"
+msgstr ""
+
+msgid "feedaudit.validators.is_present_imgurl_alternative.missing.example"
+msgstr ""
+
 msgid "feedaudit.validators.is_present_imgurl_error.missing.message"
+msgstr ""
+
+msgid "feedaudit.validators.is_present_imgurl_error.missing.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_in_stoc_camel.missing.message"
@@ -2891,6 +2981,9 @@ msgid "feedaudit.validators.is_present_manufacturer.missing.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_manufacturer.missing.example"
+msgstr ""
+
+msgid "feedaudit.validators.is_present_manufacturer.missing.link"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_manufacturer_artno.missing.message"
@@ -3178,6 +3271,9 @@ msgstr ""
 msgid "feedaudit.validators.is_present_product_type_lower.missing.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_present_product_type_lower.missing.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_present_product_url.missing.message"
 msgstr ""
 
@@ -3212,6 +3308,9 @@ msgid "feedaudit.validators.is_present_productname.missing.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_productname.missing.example"
+msgstr ""
+
+msgid "feedaudit.validators.is_present_productname.missing.youtube"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_productname_camel.missing.message"
@@ -3343,6 +3442,9 @@ msgstr ""
 msgid "feedaudit.validators.is_present_washing_lower.missing.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_present_washing_lower.missing.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_unique_additional_image_link.duplicate.message"
 msgstr ""
 
@@ -3367,16 +3469,25 @@ msgstr ""
 msgid "feedaudit.validators.is_unique_description.duplicate.help"
 msgstr ""
 
+msgid "feedaudit.validators.is_unique_description.duplicate.link"
+msgstr ""
+
 msgid "feedaudit.validators.is_unique_ean.duplicate.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_unique_ean.duplicate.help"
 msgstr ""
 
+msgid "feedaudit.validators.is_unique_ean.duplicate.link"
+msgstr ""
+
 msgid "feedaudit.validators.is_unique_fb_link.duplicate.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_unique_fb_link.duplicate.help"
+msgstr ""
+
+msgid "feedaudit.validators.is_unique_fb_link.duplicate.youtube"
 msgstr ""
 
 msgid "feedaudit.validators.is_unique_fb_title.duplicate.message"
@@ -3403,10 +3514,16 @@ msgstr ""
 msgid "feedaudit.validators.is_unique_image_link.duplicate.help"
 msgstr ""
 
+msgid "feedaudit.validators.is_unique_image_link.duplicate.youtube"
+msgstr ""
+
 msgid "feedaudit.validators.is_unique_image_url.duplicate.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_unique_image_url.duplicate.help"
+msgstr ""
+
+msgid "feedaudit.validators.is_unique_image_url.duplicate.youtube"
 msgstr ""
 
 msgid "feedaudit.validators.is_unique_imgurl.duplicate.message"
@@ -3419,6 +3536,9 @@ msgid "feedaudit.validators.is_unique_imgurl_alternative.duplicate.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_unique_imgurl_alternative.duplicate.help"
+msgstr ""
+
+msgid "feedaudit.validators.is_unique_imgurl_alternative.duplicate.youtube"
 msgstr ""
 
 msgid "feedaudit.validators.is_unique_internal_id.duplicate.message"
@@ -3440,6 +3560,9 @@ msgid "feedaudit.validators.is_unique_link.duplicate.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_unique_link.duplicate.help"
+msgstr ""
+
+msgid "feedaudit.validators.is_unique_link.duplicate.youtube"
 msgstr ""
 
 msgid "feedaudit.validators.is_unique_mobile_link.duplicate.message"
@@ -3467,6 +3590,9 @@ msgid "feedaudit.validators.is_unique_product.duplicate.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_unique_product.duplicate.help"
+msgstr ""
+
+msgid "feedaudit.validators.is_unique_product.duplicate.youtube"
 msgstr ""
 
 msgid "feedaudit.validators.is_unique_product_deeplink.duplicate.message"
@@ -3514,6 +3640,9 @@ msgstr ""
 msgid "feedaudit.validators.is_unique_productname.duplicate.help"
 msgstr ""
 
+msgid "feedaudit.validators.is_unique_productname.duplicate.youtube"
+msgstr ""
+
 msgid "feedaudit.validators.is_unique_productname_ext.duplicate.message"
 msgstr ""
 
@@ -3535,6 +3664,9 @@ msgstr ""
 msgid "feedaudit.validators.is_unique_title.duplicate.help"
 msgstr ""
 
+msgid "feedaudit.validators.is_unique_title.duplicate.link"
+msgstr ""
+
 msgid "feedaudit.validators.is_unique_unique_product_id.duplicate.message"
 msgstr ""
 
@@ -3542,6 +3674,9 @@ msgid "feedaudit.validators.is_unique_url.duplicate.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_unique_url.duplicate.help"
+msgstr ""
+
+msgid "feedaudit.validators.is_unique_url.duplicate.link"
 msgstr ""
 
 msgid "feedaudit.validators.length_additional_image_link.long.message"
@@ -3820,6 +3955,9 @@ msgstr ""
 msgid "feedaudit.validators.length_description_max.long.help"
 msgstr ""
 
+msgid "feedaudit.validators.length_description_max.long.link"
+msgstr ""
+
 msgid "feedaudit.validators.length_description_max_1000.long.message"
 msgstr ""
 
@@ -3844,6 +3982,9 @@ msgstr ""
 msgid "feedaudit.validators.length_description_max_5000.long.help"
 msgstr ""
 
+msgid "feedaudit.validators.length_description_max_5000.long.link"
+msgstr ""
+
 msgid "feedaudit.validators.length_description_min.short.message"
 msgstr ""
 
@@ -3854,6 +3995,9 @@ msgid "feedaudit.validators.length_fb_description_max_5000.long.message"
 msgstr ""
 
 msgid "feedaudit.validators.length_fb_description_max_5000.long.help"
+msgstr ""
+
+msgid "feedaudit.validators.length_fb_description_max_5000.long.link"
 msgstr ""
 
 msgid "feedaudit.validators.length_gift.long.message"
@@ -3962,6 +4106,9 @@ msgid "feedaudit.validators.length_itemgroup_id_max_36.long.message"
 msgstr ""
 
 msgid "feedaudit.validators.length_itemgroup_id_max_36.long.help"
+msgstr ""
+
+msgid "feedaudit.validators.length_itemgroup_id_max_36.long.link"
 msgstr ""
 
 msgid "feedaudit.validators.length_keywords.long.message"
@@ -4111,6 +4258,9 @@ msgstr ""
 msgid "feedaudit.validators.length_product.short.help"
 msgstr ""
 
+msgid "feedaudit.validators.length_product.short.link"
+msgstr ""
+
 msgid "feedaudit.validators.length_product_name_max_100.long.message"
 msgstr ""
 
@@ -4142,6 +4292,9 @@ msgid "feedaudit.validators.length_productname.long.help"
 msgstr ""
 
 msgid "feedaudit.validators.length_productname.long.example"
+msgstr ""
+
+msgid "feedaudit.validators.length_productname.long.link"
 msgstr ""
 
 msgid "feedaudit.validators.length_productname.short.message"
@@ -4256,6 +4409,9 @@ msgid "feedaudit.validators.length_title_max_150.long.message"
 msgstr ""
 
 msgid "feedaudit.validators.length_title_max_150.long.help"
+msgstr ""
+
+msgid "feedaudit.validators.length_title_max_150.long.link"
 msgstr ""
 
 msgid "feedaudit.validators.length_titlu_max_255.long.message"
@@ -4618,6 +4774,9 @@ msgstr ""
 msgid "feedaudit.validators.param.duplicate_param_name.example"
 msgstr ""
 
+msgid "feedaudit.validators.param.duplicate_param_name.youtube"
+msgstr ""
+
 msgid "feedaudit.validators.param.missing_param_name.message"
 msgstr ""
 
@@ -4639,10 +4798,16 @@ msgstr ""
 msgid "feedaudit.validators.param.semicolon.help"
 msgstr ""
 
+msgid "feedaudit.validators.param.semicolon.link"
+msgstr ""
+
 msgid "feedaudit.validators.param_glami.duplicate_param_name.message"
 msgstr ""
 
 msgid "feedaudit.validators.param_glami.duplicate_param_name.help"
+msgstr ""
+
+msgid "feedaudit.validators.param_glami.duplicate_param_name.example"
 msgstr ""
 
 msgid "feedaudit.validators.param_glami.missing_param_name.message"
@@ -4655,6 +4820,9 @@ msgid "feedaudit.validators.param_glami.multiple_val.message"
 msgstr ""
 
 msgid "feedaudit.validators.param_glami.multiple_val.help"
+msgstr ""
+
+msgid "feedaudit.validators.param_glami.multiple_val.example"
 msgstr ""
 
 msgid "feedaudit.validators.param_glami.semicolon.message"
