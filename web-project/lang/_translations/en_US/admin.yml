@@ -1,0 +1,36 @@
+---
+"admin.localization.code":
+  cs_CZ: "NEON nebo JS kód nebo klíče pro překlady"
+  en_GB: "NEON or JS code or keys for translations"
+  sk_SK: "@cs_CZ"
+  pl_PL: "@en_GB"
+  de_DE: "@en_GB"
+  hu_HU: "@en_GB"
+"admin.localization.append_more":
+  cs_CZ: "Přidat další (%s)"
+  en_GB: "Append more (%s)"
+  sk_SK: "@cs_CZ"
+  pl_PL: "@en_GB"
+  de_DE: "@en_GB"
+  hu_HU: "@en_GB"
+"admin.localization.missing_languages":
+  cs_CZ: "Chybějící jazyky"
+  en_GB: "Missing languages"
+  sk_SK: "@cs_CZ"
+  pl_PL: "@en_GB"
+  de_DE: "@en_GB"
+  hu_HU: "@en_GB"
+"admin.localization.params":
+  cs_CZ: "Parametry"
+  en_GB: "Params"
+  sk_SK: "@cs_CZ"
+  pl_PL: "@en_GB"
+  de_DE: "@en_GB"
+  hu_HU: "@en_GB"
+"admin.localization.title":
+  cs_CZ: "md:Překlady: **%s**"
+  en_GB: "md:Translations: **%s**"
+  sk_SK: "@cs_CZ"
+  pl_PL: "@en_GB"
+  de_DE: "@en_GB"
+  hu_HU: "@en_GB"
