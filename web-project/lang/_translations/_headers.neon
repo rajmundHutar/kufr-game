@@ -1,0 +1,22 @@
+# FYI, for '\n' to be literally '\n', single quotes must be used.
+
+cs_CZ:
+	- 'Language: cs_CZ\n'
+	- 'Content-Type: text/plain; charset=UTF-8\n'
+	- 'Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n'
+sk_SK:
+	- 'Language: sk_SK\n'
+	- 'Content-Type: text/plain; charset=UTF-8\n'
+	- 'Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n'
+en_GB:
+	- 'Language: en_GB\n'
+	- 'Content-Type: text/plain; charset=UTF-8\n'
+	- 'Plural-Forms: nplurals=2; plural=(n != 1);\n'
+pl_PL:
+	- 'Language: pl_PL\n'
+	- 'Content-Type: text/plain; charset=UTF-8\n'
+	- 'Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n'
+hu_HU:
+	- 'Language: hu_HU\n'
+	- 'Content-Type: text/plain; charset=UTF-8\n'
+	- 'Plural-Forms: nplurals=2; plural=(n != 1);\n'

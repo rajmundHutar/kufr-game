@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Language: sk_SK\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+# VIP Audit translations --- START
+msgid "feedaudit.validators.heureka_not_alone.alone.message"
+msgstr "Produkt je v produktových kartách na Heureke sám"
+
+msgid "feedaudit.validators.heureka_not_alone.alone.help"
+msgstr ""
+"Uvedený produkt je na Heureke spárovaný do produktovej karty. Je tam však sám. Mohlo by stáť za to skontrolovať, "
+"či nie je na Heureke produktových kariet viac a či sa tieto karty nevypisujú nad tou vašou. Presun ponuky "
+"do týchto kariet by vám potom mohol navýšiť tržby."
+
+msgid "feedaudit.validators.heureka_cpc_status.low.message"
+msgstr "Cena za preklik je príliš nízka"
+
+msgid "feedaudit.validators.heureka_cpc_status.low.help"
+msgstr ""
+"Vaše XML navrhuje cenu za preklik, ktorá je nižšia, ako minimálna povolená cena. Vami ponúkaná čiastka "
+"tak nebude vyhľadávačom tovaru nijako zohľadnená. Bolo by vhodné nastavenie ponúk za prekliky skontrolovať "
+"a čiastky rozumne navýšiť."
+
+msgid "feedaudit.validators.heureka_cpc_status.decreased.message"
+msgstr "Navýšenie ponúk za prekliky prinesie navýšenie predajov"
+
+msgid "feedaudit.validators.heureka_cpc_status.decreased.help"
+msgstr ""
+"Uvedený produkt ponúkate za priaznivú cenu a máte ho skladom. Napriek tomu však nepatrí medzi TOP 3 položky "
+"na Heureke. Mierne navýšenie ponúk za prekliky by mohlo zlepšiť pozíciu produktu a tak aj vaše tržby."
+
+msgid "feedaudit.validators.heureka_is_paired.wrong.message"
+msgstr "Produkt nie je spárovaný"
+
+msgid "feedaudit.validators.heureka_is_paired.wrong.help"
+msgstr ""
+"Uvedený tovar nie je na Heureke spárovaný do produktových kariet. Příčinou môžu byť dáta posielané e-shopom, "
+"alebo fakt, že Heureka potrebnú produktovú kartu proste nemá."
+
+msgid "feedaudit.validators.heureka_margin_status.low.message"
+msgstr "Marža je veľmi nízka"
+
+msgid "feedaudit.validators.heureka_margin_status.low.help"
+msgstr ""
+"Predajná cena produktu prevyšuje cenu nákupnú len nepatrne a tak existuje riziko, že táto suma nie je "
+"nastavená správne. Odporúčame ju preto skontrolovať."
+
+msgid "feedaudit.validators.heureka_margin_status.negative.message"
+msgstr "Marža je záporná"
+
+msgid "feedaudit.validators.heureka_margin_status.negative.help"
+msgstr ""
+"Nákupná cena produktu prevyšuje cenu predajnú. Okrem chyby v dátach môže byť príčinou napr. razantný "
+"výpredaj. Napriek tomu je vhodné položky skontrolovať. Buď môže byť problém, ktorý Mergado spracováva, "
+"alebo je nesprávne stanovená predajná cena. Predaj produktu tak prinesie stratu."
+
+msgid "feedaudit.validators.heureka_price_status.high.message"
+msgstr "Predajná cena je vyššia ako u konkurencie"
+
+msgid "feedaudit.validators.heureka_price_status.high.help"
+msgstr "Konkurenti ponúkajú tovar za nižšie ceny, než vy. Je dobré skontrolovať, či je vaša cena nastavená správne."
+
+msgid "feedaudit.validators.heureka_price_status.low.message"
+msgstr "Predajná cena je príliš nízka"
+
+msgid "feedaudit.validators.heureka_price_status.low.help"
+msgstr ""
+"U tohto tovaru existuje priestor k navýšeniu cien. Ste totiž najlacnejší a zároveň máte tovar skladom. "
+"Drobné navýšenie ceny by zvýšilo vašu maržu a pritom by nemuselo ovplyvniť zákazníka v rozhodovaní, pretože "
+"by ste boli stále najlacnejší."
+
+msgid "feedaudit.validators.heureka_price_status.increased.message"
+msgstr "Predajná cena by mohla byť najnižšia"
+
+msgid "feedaudit.validators.heureka_price_status.increased.help"
+msgstr ""
+"Uvedený produkt nie je zo všetkých najlacnejší, rozdiel medzi jeho cenou a cenou toho najlacnejšieho "
+"je však malý. Najnižšia cena by pritom mohla nalákať viac zákazníkov a tak by mohlo byť dobré váš tovar "
+"mierne zlacniť."
+
+# VIP Audit translations --- WORST_PRODUCTS
+# conversion_ratio.low
+msgid "feedaudit.validators.conversion_ratio.low.message"
+msgstr "Produkt má nezvyčajne nízky konverzný pomer"
+
+msgid "feedaudit.validators.conversion_ratio.low.help"
+msgstr ""
+"Pri vybranom tovare získáte mnoho preklikov, ktoré privedú užívateľov na stránky vášho e-shopu. Podiel "
+"tých, ktorí si tento produkt zakúpia, je však nezvyčajne nízky."
+
+# cost_of_advertising.high
+msgid "feedaudit.validators.cost_of_advertising.high.message"
+msgstr "Náklady na inzerciu sú vysoké a neprinášajú konverzie"
+
+msgid "feedaudit.validators.cost_of_advertising.high.help"
+msgstr "Uvedený tovar spotrebováva značný rozpočet a pritom neprináša žiadne konverzie."
+
+# cost_of_conversion.high
+msgid "feedaudit.validators.cost_of_conversion.high.message"
+msgstr "Priemerné náklady na konverziu sú vysoké"
+
+msgid "feedaudit.validators.cost_of_conversion.high.help"
+msgstr "Priemerná cena inzercie, pripadajúca na jednu konverziu, prevyšuje 100 Kč."
+
+# cost_of_sales.high
+msgid "feedaudit.validators.cost_of_sales.high.message"
+msgstr "Podiel nákladov na obrate je vysoký"
+
+msgid "feedaudit.validators.cost_of_sales.high.help"
+msgstr "Podiel ceny inzercie na celkových tržbách za predaný tovar je vyšší ako 5%."
+
+# no_loss.wrong
+msgid "feedaudit.validators.no_loss.wrong.message"
+msgstr "Tovar predávate so stratou"
+
+msgid "feedaudit.validators.no_loss.wrong.help"
+msgstr ""
+"Priemerný zisk na jednu objednávku je záporný. Náklady na obstaranie tovaru a inzerciu teda prevyšujú "
+"tržby za tovar."
+
+# heureka_category_name.wrong
+msgid "feedaudit.validators.heureka_category_name.wrong.message"
+msgstr "Kategória obsahuje priveľa nespárovaných produktov"
+
+msgid "feedaudit.validators.heureka_category_name.wrong.help"
+msgstr ""
+"Položky tovaru sú vybavené elementom CATEGORYTEXT, ktorý zrejme nepomáha správnemu spárovaniu do produktových "
+"kariet. Bolo by vhodné CATEGORYTEXT upraviť podľa kategórií Heureky."
+
+# position.low
+msgid "feedaudit.validators.heureka_position_status.low.message"
+msgstr "Produkt má na karte príliš nízku pozíciu"
+
+msgid "feedaudit.validators.heureka_position_status.low.help"
+msgstr ""
+"Uvedený tovar je v produktových kartách Heureky tak nízko, že sa medzi ponukami konkurenčných e-shopov "
+"stráca. U významných položiek tovaru preto stojí za to zvážiť úpravu predajnej ceny či zmenu ceny za "
+"preklik."

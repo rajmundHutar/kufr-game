@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Language: en_GB\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# VIP Audit translations --- START
+msgid "feedaudit.validators.heureka_not_alone.alone.message"
+msgstr "Product is not alone on product cards at Heureka"
+
+msgid "feedaudit.validators.heureka_not_alone.alone.help"
+msgstr ""
+"Listed product(s) is paired to a product card at Heureka, but there is no other product in this product "
+"card. It could be useful to check if there are other product cards and if they do not list above your "
+"card. Moving to those cards could increase your revenues."
+
+msgid "feedaudit.validators.heureka_cpc_status.low.message"
+msgstr "Cost per click is too low"
+
+msgid "feedaudit.validators.heureka_cpc_status.low.help"
+msgstr ""
+"Your XML offers a cost per click, which is lower than the lowest allowed amount. Your offer will then "
+"not be taken into consideration by a shopping service. It would be useful to check the setting of cost "
+"per click and increase the amount reasonably."
+
+msgid "feedaudit.validators.heureka_cpc_status.decreased.message"
+msgstr "Increasing of costs per click can increase your sales."
+
+msgid "feedaudit.validators.heureka_cpc_status.decreased.help"
+msgstr ""
+"You offer listed product(s) for a good price and it is in stock. Nevertheless it does not belong to the "
+"TOP 3 items at Heureka. Slight increase of cost per click could improve the position of the product and "
+"your revenues."
+
+msgid "feedaudit.validators.heureka_is_paired.wrong.message"
+msgstr "Product is not paired"
+
+msgid "feedaudit.validators.heureka_is_paired.wrong.help"
+msgstr ""
+"Listed product(s) is not paired to product cards at Heureka. It can be caused by data sent from online store "
+"or a fact that Heureka does not have the required card."
+
+msgid "feedaudit.validators.heureka_margin_status.low.message"
+msgstr "Margin is very low"
+
+msgid "feedaudit.validators.heureka_margin_status.low.help"
+msgstr ""
+"Sell price of product(s) is only slightly exceeding the purchase price  and there is a risk that this "
+"amount is not set correctly. We recommend you to check it."
+
+msgid "feedaudit.validators.heureka_margin_status.negative.message"
+msgstr "Margin is negative"
+
+msgid "feedaudit.validators.heureka_margin_status.negative.help"
+msgstr ""
+"Purchase price exceeds the selling price. Apart from data error it can be caused by total sale. Nevertheless "
+"it could be useful to check it. Either there is a problem with Mergado processing or the selling price "
+"is not set correctly. Selling such goods will create a loss."
+
+msgid "feedaudit.validators.heureka_price_status.high.message"
+msgstr "Selling price is higher than your competitors'."
+
+msgid "feedaudit.validators.heureka_price_status.high.help"
+msgstr "Competitors offer goods for lower prices than you do. It is good to check if your price is set correctly."
+
+msgid "feedaudit.validators.heureka_price_status.low.message"
+msgstr "Selling price is too low"
+
+msgid "feedaudit.validators.heureka_price_status.low.help"
+msgstr ""
+"For this product(s) there is room for price increase. It is the cheapest offer and at the same time you "
+"have the goods in stock. Slight price increase could increase your margin while not affecting the decision "
+"of customers, because still you will be the cheapest one."
+
+msgid "feedaudit.validators.heureka_price_status.increased.message"
+msgstr "Selling price could be the cheapest one."
+
+msgid "feedaudit.validators.heureka_price_status.increased.help"
+msgstr ""
+"Listed product(s) is not the cheapest one. But the difference between it's price and the price of the "
+"cheapest item is really small. Lowest price can attract more customers, so it would be good for you to "
+"lower your price a bit."
+
+# VIP Audit translations --- WORST_PRODUCTS
+# conversion_ratio.low
+msgid "feedaudit.validators.conversion_ratio.low.message"
+msgstr "Product has uncommonly low conversion rate"
+
+msgid "feedaudit.validators.conversion_ratio.low.help"
+msgstr ""
+"Listed product(s) have many clickthroughs that lead users to online store's pages. However the share of those "
+"who actually buy is uncommonly low."
+
+# cost_of_advertising.high
+msgid "feedaudit.validators.cost_of_advertising.high.message"
+msgstr "Advertising costs are too high and do not bring any conversion."
+
+msgid "feedaudit.validators.cost_of_advertising.high.help"
+msgstr "Listed product(s) consume a significant budget while not bringing any conversion."
+
+# cost_of_conversion.high
+msgid "feedaudit.validators.cost_of_conversion.high.message"
+msgstr "Average cost per conversion is high"
+
+msgid "feedaudit.validators.cost_of_conversion.high.help"
+msgstr "Average cost of advertising per one conversion is higher than 100 CZK."
+
+# cost_of_sales.high
+msgid "feedaudit.validators.cost_of_sales.high.message"
+msgstr "Share of costs on turnover is high"
+
+msgid "feedaudit.validators.cost_of_sales.high.help"
+msgstr "Share of advertising cost on total revenues from sold products is highter than 5 %."
+
+# no_loss.wrong
+msgid "feedaudit.validators.no_loss.wrong.message"
+msgstr "Goods are selling at a loss"
+
+msgid "feedaudit.validators.no_loss.wrong.help"
+msgstr ""
+"Average profit per one order is negative. Costs of one product purchase and advertising thus exceed the "
+"product revenues."
+
+# heureka_category_name.wrong
+msgid "feedaudit.validators.heureka_category_name.wrong.message"
+msgstr "Category contains many unpaired products"
+
+msgid "feedaudit.validators.heureka_category_name.wrong.help"
+msgstr ""
+"Product items are provided with CATEGORYTEXT element, which apparently does not work correctly pairing "
+"to product cards. It could be appropriate to adjust CATEGORYTEXT according to Heureka categories."
+
+# position.low
+msgid "feedaudit.validators.heureka_position_status.low.message"
+msgstr "Product has too low position in product card"
+
+msgid "feedaudit.validators.heureka_position_status.low.help"
+msgstr ""
+"Listed product(s) is so low in Heureka product card, that it is almost getting lost among the offers "
+"of competitors' online stores. For important product items it could be appropriate to reconsider change in price"

@@ -1,0 +1,138 @@
+msgid ""
+msgstr ""
+"Language: cs_CZ\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+# VIP Audit translations --- START
+msgid "feedaudit.validators.heureka_not_alone.alone.message"
+msgstr "Zboží je v produktových kartách na Heurece samo"
+
+msgid "feedaudit.validators.heureka_not_alone.alone.help"
+msgstr ""
+"Uvedené zboží je na Heurece spárováno do produktové karty. Je tam ovšem samo. Mohlo by stát za to zkontrolovat, "
+"zda není na Heurece produktových karet víc a zda se tyto karty nevypisují nad tou vaší. Přesun nabídky "
+"do těchto karet by vám pak mohl navýšit tržby."
+
+msgid "feedaudit.validators.heureka_cpc_status.low.message"
+msgstr "Nabídka za proklik je příliš nízká"
+
+msgid "feedaudit.validators.heureka_cpc_status.low.help"
+msgstr ""
+"Vaše XML navrhuje nabídku za proklik, která je nižší, než minimální povolená nabídka. Vámi nabízená částka "
+"tak nebude vyhledávačem zboží nijak zohledněna. Bylo by vhodné nastavení nabídek za prokliky zkontrolovat "
+"a částky rozumně navýšit."
+
+msgid "feedaudit.validators.heureka_cpc_status.decreased.message"
+msgstr "Navýšení nabídek za prokliky přinese navýšení prodejů"
+
+msgid "feedaudit.validators.heureka_cpc_status.decreased.help"
+msgstr ""
+"Uvedené zboží nabízíte za příznivou cenu a máte jej skladem. Přesto však nepatří mezi TOP 3 položky na "
+"Heurece. Mírné navýšení nabídek za prokliky by mohlo zlepšit pozici zboží a tak i vaše tržby."
+
+msgid "feedaudit.validators.heureka_is_paired.wrong.message"
+msgstr "Produkt není spárovaný"
+
+msgid "feedaudit.validators.heureka_is_paired.wrong.help"
+msgstr ""
+"Uvedené zboží není na Heurece spárováno do produktových karet. Příčinou mohou být data posílaná e-shopem, "
+"nebo fakt, že potřebnou produktovou kartu Heureka nemá."
+
+msgid "feedaudit.validators.heureka_margin_status.low.message"
+msgstr "Marže je velmi nízká"
+
+msgid "feedaudit.validators.heureka_margin_status.low.help"
+msgstr ""
+"Prodejní cena zboží převyšuje cenu nákupní jen nepatrně a tak existuje riziko, že tato částka není nastavena "
+"správně. Doporučujeme ji proto zkontrolovat."
+
+msgid "feedaudit.validators.heureka_margin_status.negative.message"
+msgstr "Marže je záporná"
+
+msgid "feedaudit.validators.heureka_margin_status.negative.help"
+msgstr ""
+"Nákupní cena zboží převyšuje cenu prodejní. Kromě chyby v datech může být příčinou např. razantní výprodej. "
+"Přesto je vhodné položky zkontrolovat. Buď může být problém, která Mergado zpracovává, nebo je chybně "
+"stanovena prodejní cena. Prodej zboží tak přinese ztrátu."
+
+msgid "feedaudit.validators.heureka_price_status.high.message"
+msgstr "Prodejní cena je vyšší než u konkurence"
+
+msgid "feedaudit.validators.heureka_price_status.high.help"
+msgstr "Konkurenti nabízejí zboží za ceny nižší, než vy. Je dobré zkontrolovat, zda je vaše cena nastavena správně."
+
+msgid "feedaudit.validators.heureka_price_status.low.message"
+msgstr "Prodejní cena je příliš nízká"
+
+msgid "feedaudit.validators.heureka_price_status.low.help"
+msgstr ""
+"U tohoto zboží existuje prostor k navýšení cen. Jste totiž nejlevnější a zároveň máte zboží skladem. "
+"Drobné navýšení ceny by zvýšilo vaši marži a přitom by nemuselo ovlivnit zákazníka v rozhodování, neboť "
+"byste byli stále nejlevnější."
+
+msgid "feedaudit.validators.heureka_price_status.increased.message"
+msgstr "Prodejní cena by mohla být nejnižší"
+
+msgid "feedaudit.validators.heureka_price_status.increased.help"
+msgstr ""
+"Uvedené zboží není ze všech nejlevnější, rozdíl mezi jeho cenou a cenou toho nejlevnějšího je však malý. "
+"Nejnižší cena by přitom mohla nalákat více zákazníků a tak by mohlo být dobré vaše zboží mírně zlevnit."
+
+# VIP Audit translations --- WORST_PRODUCTS
+# conversion_ratio.low
+msgid "feedaudit.validators.conversion_ratio.low.message"
+msgstr "Zboží má nezvykle nízký konverzní poměr"
+
+msgid "feedaudit.validators.conversion_ratio.low.help"
+msgstr ""
+"U vybraného zboží získáte mnoho prokliků, které přivedou uživatele na stránky našeho e-shopu. Podíl těch, "
+"kteří toto zboží zakoupí, je však nezvykle nízký."
+
+# cost_of_advertising.high
+msgid "feedaudit.validators.cost_of_advertising.high.message"
+msgstr "Náklady na inzerci jsou vysoké a nepřináší konverze"
+
+msgid "feedaudit.validators.cost_of_advertising.high.help"
+msgstr "Uvedené zboží spotřebovává značný rozpočet a přitom nepřináší žádné konverze."
+
+# cost_of_conversion.high
+msgid "feedaudit.validators.cost_of_conversion.high.message"
+msgstr "Průměrné náklady na konverzi jsou vysoké"
+
+msgid "feedaudit.validators.cost_of_conversion.high.help"
+msgstr "Průměrná cena inzerce, připadající na jednu konverzi, převyšuje 100 Kč."
+
+# cost_of_sales.high
+msgid "feedaudit.validators.cost_of_sales.high.message"
+msgstr "Podíl nákladů na obratu je vysoký"
+
+msgid "feedaudit.validators.cost_of_sales.high.help"
+msgstr "Podíl ceny inzerce na celkových tržbách za prodané zboží je vyšší než 5 %."
+
+# no_loss.wrong
+msgid "feedaudit.validators.no_loss.wrong.message"
+msgstr "Zboží prodáváte se ztrátou"
+
+msgid "feedaudit.validators.no_loss.wrong.help"
+msgstr ""
+"Průměrný zisk na jednu objednávku je záporný. Náklady na pořízení zboží a inzerci tedy převyšují tržby "
+"za zboží."
+
+# heureka_category_name.wrong
+msgid "feedaudit.validators.heureka_category_name.wrong.message"
+msgstr "Kategorie obsahuje mnoho nespárovaných produktů"
+
+msgid "feedaudit.validators.heureka_category_name.wrong.help"
+msgstr ""
+"Položky zboží jsou opatřeny elementem CATEGORYTEXT, který zřejmě nepomáhá správnému spárování do produktových "
+"karet. Mohlo by být vhodné CATEGORYTEXT upravit dle kategorií Heureky."
+
+# position.low
+msgid "feedaudit.validators.heureka_position_status.low.message"
+msgstr "Produkt má na kartě příliš nízkou pozici"
+
+msgid "feedaudit.validators.heureka_position_status.low.help"
+msgstr ""
+"Uvedené zboží je v produktových kartách Heureky tak nízko, že se mezi nabídkami konkurenčních e-shopů "
+"ztrácí. U významných položek zboží proto stojí za to zvážit úpravu prodejní ceny či"

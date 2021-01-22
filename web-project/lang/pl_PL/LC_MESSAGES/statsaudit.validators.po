@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Language: pl_PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+
+# VIP Audit translations --- START
+msgid "feedaudit.validators.heureka_not_alone.alone.message"
+msgstr "produkt jest sam w kartach produktowych Heureki"
+
+msgid "feedaudit.validators.heureka_not_alone.alone.help"
+msgstr ""
+"Wymieniony produkty są sparowane z kartą produktów w Heurece, ale na tej karcie nie ma innych produktów. "
+"Zalecamy, abyś sprawdził, czy istnieją inne karty produktów i czy nie znajdują się one nad Twoją kartą. "
+"Przejście na te karty może zwiększyć twoje dochody"
+
+msgid "feedaudit.validators.heureka_cpc_status.low.message"
+msgstr "stawka za kliknięcie jest zbyt niska"
+
+msgid "feedaudit.validators.heureka_cpc_status.low.help"
+msgstr ""
+"Twój XML sugeruje stawkę kosztu kliknięcia (CPC) poniżej minimalnej dozwolonej stawki. W związku z tym "
+"kwota, którą oferujesz, nie zostanie uwzględniona przez wyszukiwarkę. Zalecamy sprawdzenie ustawień dotyczących "
+"stawek i kliknięć oraz rozsądne zwiększenie kwot"
+
+msgid "feedaudit.validators.heureka_cpc_status.decreased.message"
+msgstr "podniesienie stawek za kliknięcia spowoduje wzrost sprzedaży"
+
+msgid "feedaudit.validators.heureka_cpc_status.decreased.help"
+msgstr ""
+"Oferujesz produkty po korzystnej cenie i masz je w magazynie. Mimo to, nie są one w gronie TOP3 Heureki. "
+"Niewielki wzrost liczby kliknięć mógłby poprawić pozycję Twoich produktów i sprzedaży."
+
+msgid "feedaudit.validators.heureka_is_paired.wrong.message"
+msgstr "produkt nie jest sparowany"
+
+msgid "feedaudit.validators.heureka_is_paired.wrong.help"
+msgstr ""
+"Uvedené zboží není na Heurece spárováno do produktových karet. Příčinou mohou být data posílaná e-shopem, "
+"nebo fakt, že potřebnou produktovou kartu Heureka nemá"
+
+msgid "feedaudit.validators.heureka_margin_status.low.message"
+msgstr "marża jest bardzo niska"
+
+msgid "feedaudit.validators.heureka_margin_status.low.help"
+msgstr ""
+"Cena sprzedaży towaru jest nieznacznie wyższa od ceny zakupu. Istnieje ryzyko, że ta kwota została błędnie "
+"ustawiona. Zalecamy, albyś to sprawdził"
+
+msgid "feedaudit.validators.heureka_margin_status.negative.message"
+msgstr "marża jest ujemna"
+
+msgid "feedaudit.validators.heureka_margin_status.negative.help"
+msgstr ""
+"Cena zakupu towarów przekracza cenę sprzedaży. Oprócz błędów w danych, może być to wyniki silnej wyprzedaży. "
+"Sprawdź te przedmioty. Może to być albo problem z przetwarzaniem Mergado, albo błędnie ustalona cena "
+"sprzedaży. Sprzedaż towarów może przynieść straty."
+
+msgid "feedaudit.validators.heureka_price_status.high.message"
+msgstr "Cena jest wyższa niż u konkurencji"
+
+msgid "feedaudit.validators.heureka_price_status.high.help"
+msgstr "Konkurencja sprzedaje produkty w niższej cenie. Sprawdź, czy ustawiona przez Ciebie cena jest poprawna."
+
+msgid "feedaudit.validators.heureka_price_status.low.message"
+msgstr "cena sprzedaży jest zbyt niska"
+
+msgid "feedaudit.validators.heureka_price_status.low.help"
+msgstr ""
+"W przypadku tego produktu istnieje możliwość podniesienia ceny. Jest to najtańsza oferta, a jednocześnie "
+"masz towar na stanie. Niewielki wzrost ceny może zwiększyć twoją marżę, nie wpływając na decyzję klientów, "
+"ponieważ nadal będziesz sprzedawać towar w najtaniej."
+
+msgid "feedaudit.validators.heureka_price_status.increased.message"
+msgstr "cena sprzedaży by mogła być najniższa"
+
+msgid "feedaudit.validators.heureka_price_status.increased.help"
+msgstr ""
+"Wymieniony produkt nie jest najtańszy. Różnica między jego ceną, a ceną najtańszego produktu jest niewielka. "
+"Najniższa cena może przyciągnąć więcej klientów. Zalecamy jej obniżenie."
+
+# VIP Audit translations --- WORST_PRODUCTS
+# conversion_ratio.low
+msgid "feedaudit.validators.conversion_ratio.low.message"
+msgstr "produkty mają niezwykle niski współczynnik konwersji"
+
+msgid "feedaudit.validators.conversion_ratio.low.help"
+msgstr ""
+"Wystawione produkty mają wiele kliknięć prowadzących użytkowników do stron sklepu. Jednak udział tych, "
+"którzy rzeczywiście dokonują zakupu jest niezwykle niski."
+
+# cost_of_advertising.high
+msgid "feedaudit.validators.cost_of_advertising.high.message"
+msgstr "Náklady na inzerci jsou vysoké a nepřináší konverze"
+
+msgid "feedaudit.validators.cost_of_advertising.high.help"
+msgstr "Wymienione produkty zużywają znaczną część budżetu i nie powodują żadnej konwersji."
+
+# cost_of_conversion.high
+msgid "feedaudit.validators.cost_of_conversion.high.message"
+msgstr "Średni koszt konwersji jest wysoki"
+
+msgid "feedaudit.validators.cost_of_conversion.high.help"
+msgstr "Średni koszt reklamy na jedną konwersję jest wyższy niż 100 CZK."
+
+# cost_of_sales.high
+msgid "feedaudit.validators.cost_of_sales.high.message"
+msgstr "Udział kosztów w obrotach jest wysoki"
+
+msgid "feedaudit.validators.cost_of_sales.high.help"
+msgstr "Udział kosztów reklamy w całkowitych przychodach ze sprzedanych produktów jest wyższy niż 5%."
+
+# no_loss.wrong
+msgid "feedaudit.validators.no_loss.wrong.message"
+msgstr "sprzedaż towarów ze stratą"
+
+msgid "feedaudit.validators.no_loss.wrong.help"
+msgstr ""
+"Średni zysk z jednego zamówienia jest ujemny. Koszty zakupu jednego produktu i reklamy przekraczają przychody "
+"ze sprzedaży produktu."
+
+# heureka_category_name.wrong
+msgid "feedaudit.validators.heureka_category_name.wrong.message"
+msgstr "Kategoria zawiera dużo nie sparowanych kategorii Kategorie obsahuje mnoho nespárovaných produktů"
+
+msgid "feedaudit.validators.heureka_category_name.wrong.help"
+msgstr ""
+"Elementy produktu są dostarczane z elementem CATEGORYTEXT, który najwyraźniej nie działa poprawnie z "
+"parowanymi kartami produktów. Polecamy dostosowanie CATEGORYTEXT zgodnie z kategoriami Heureka. Položky "
+"zboží jsou opatřeny elementem CATEGORYTEXT, který zřejmě nepomáhá správnému spárování do produktových "
+"karet. Mohlo by být vhodné CATEGORYTEXT upravit dle kategorií Heureky."
+
+# position.low
+msgid "feedaudit.validators.heureka_position_status.low.message"
+msgstr "produkt ma zbyt niską pozycję na karcie"
+
+msgid "feedaudit.validators.heureka_position_status.low.help"
+msgstr ""
+"Wymieniony produkty są tak nisko na karcie produktu Heureki, że niemal gubią się wśród ofert innych e-sklepów. "
+"W przypadku ważnych produktów rozważ zmianę ceny"

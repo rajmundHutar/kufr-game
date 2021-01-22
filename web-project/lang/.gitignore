@@ -1,0 +1,4 @@
+# Middle-products of language compilation do not belong in the repo.
+**/LC_MESSAGES/_*.po
+**/LC_MESSAGES/_*.mo
+version
