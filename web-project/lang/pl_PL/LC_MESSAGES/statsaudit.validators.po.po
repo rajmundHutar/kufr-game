@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Language: pl_PL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Crowdin-Project: mergado\n"
+"X-Crowdin-Project-ID: 438154\n"
+"X-Crowdin-Language: pl\n"
+"X-Crowdin-File: /l10n/web-project/lang/sk_SK/LC_MESSAGES/statsaudit.validators.po\n"
+"X-Crowdin-File-ID: 42\n"
+"Project-Id-Version: mergado\n"
+"Language-Team: Polish\n"
+"PO-Revision-Date: 2021-01-22 09:18\n"
+
+# VIP Audit translations --- START
+msgid "feedaudit.validators.heureka_not_alone.alone.message"
+msgstr ""
+
+msgid "feedaudit.validators.heureka_not_alone.alone.help"
+msgstr ""
+
+msgid "feedaudit.validators.heureka_cpc_status.low.message"
+msgstr ""
+
+msgid "feedaudit.validators.heureka_cpc_status.low.help"
+msgstr ""
+
+msgid "feedaudit.validators.heureka_cpc_status.decreased.message"
+msgstr ""
+
+msgid "feedaudit.validators.heureka_cpc_status.decreased.help"
+msgstr ""
+
+msgid "feedaudit.validators.heureka_is_paired.wrong.message"
+msgstr ""
+
+msgid "feedaudit.validators.heureka_is_paired.wrong.help"
+msgstr ""
+
+msgid "feedaudit.validators.heureka_margin_status.low.message"
+msgstr ""
+
+msgid "feedaudit.validators.heureka_margin_status.low.help"
+msgstr ""
+
+msgid "feedaudit.validators.heureka_margin_status.negative.message"
+msgstr ""
+
+msgid "feedaudit.validators.heureka_margin_status.negative.help"
+msgstr ""
+
+msgid "feedaudit.validators.heureka_price_status.high.message"
+msgstr ""
+
+msgid "feedaudit.validators.heureka_price_status.high.help"
+msgstr ""
+
+msgid "feedaudit.validators.heureka_price_status.low.message"
+msgstr ""
+
+msgid "feedaudit.validators.heureka_price_status.low.help"
+msgstr ""
+
+msgid "feedaudit.validators.heureka_price_status.increased.message"
+msgstr ""
+
+msgid "feedaudit.validators.heureka_price_status.increased.help"
+msgstr ""
+
+# VIP Audit translations --- WORST_PRODUCTS
+# conversion_ratio.low
+msgid "feedaudit.validators.conversion_ratio.low.message"
+msgstr ""
+
+msgid "feedaudit.validators.conversion_ratio.low.help"
+msgstr ""
+
+# cost_of_advertising.high
+msgid "feedaudit.validators.cost_of_advertising.high.message"
+msgstr ""
+
+msgid "feedaudit.validators.cost_of_advertising.high.help"
+msgstr ""
+
+# cost_of_conversion.high
+msgid "feedaudit.validators.cost_of_conversion.high.message"
+msgstr ""
+
+msgid "feedaudit.validators.cost_of_conversion.high.help"
+msgstr ""
+
+# cost_of_sales.high
+msgid "feedaudit.validators.cost_of_sales.high.message"
+msgstr ""
+
+msgid "feedaudit.validators.cost_of_sales.high.help"
+msgstr ""
+
+# no_loss.wrong
+msgid "feedaudit.validators.no_loss.wrong.message"
+msgstr ""
+
+msgid "feedaudit.validators.no_loss.wrong.help"
+msgstr ""
+
+# heureka_category_name.wrong
+msgid "feedaudit.validators.heureka_category_name.wrong.message"
+msgstr ""
+
+msgid "feedaudit.validators.heureka_category_name.wrong.help"
+msgstr ""
+
+# position.low
+msgid "feedaudit.validators.heureka_position_status.low.message"
+msgstr ""
+
+msgid "feedaudit.validators.heureka_position_status.low.help"
+msgstr ""
+
