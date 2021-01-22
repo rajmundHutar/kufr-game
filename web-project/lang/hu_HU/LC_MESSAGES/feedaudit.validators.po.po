@@ -16,8 +16,8 @@ msgstr ""
 "X-Crowdin-Project: mergado\n"
 "X-Crowdin-Project-ID: 438154\n"
 "X-Crowdin-Language: hu\n"
-"X-Crowdin-File: /l10n/web-project/lang/en_GB/LC_MESSAGES/feedaudit.validators.po\n"
-"X-Crowdin-File-ID: 32\n"
+"X-Crowdin-File: /l10n/web-project/lang/pl_PL/LC_MESSAGES/feedaudit.validators.po\n"
+"X-Crowdin-File-ID: 36\n"
 
 msgid "feedaudit.validators.barcode_barcode.invalid.message"
 msgstr ""
@@ -452,9 +452,6 @@ msgid "feedaudit.validators.contains_value_firmy_cz.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.contains_value_generare_link_text.wrong.message"
-msgstr ""
-
-msgid "feedaudit.validators.contains_value_generare_link_text.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.contains_value_in_stoc.wrong.message"
@@ -926,9 +923,6 @@ msgid "feedaudit.validators.enum_highlight.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.enum_identifier_exists.wrong.message"
-msgstr ""
-
-msgid "feedaudit.validators.enum_identifier_exists.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.enum_instock.wrong.message"
@@ -1723,9 +1717,6 @@ msgstr ""
 msgid "feedaudit.validators.is_number_miinto_stock.nan.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_miinto_stock.nan.help"
-msgstr ""
-
 msgid "feedaudit.validators.is_number_miinto_stock.wrong.message"
 msgstr ""
 
@@ -1990,46 +1981,46 @@ msgstr ""
 msgid "feedaudit.validators.is_number_retail_price_dkk.nan.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_retail_price_dkk.nan.help"
+msgid "feedaudit.validators.is_number_retail_price_dkk.wrong.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_retail_price_dkk.wrong.message"
+msgid "feedaudit.validators.is_number_retail_price_dkk.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_retail_price_eur.nan.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_retail_price_eur.nan.help"
+msgid "feedaudit.validators.is_number_retail_price_eur.wrong.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_retail_price_eur.wrong.message"
+msgid "feedaudit.validators.is_number_retail_price_eur.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_retail_price_nok.nan.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_retail_price_nok.nan.help"
+msgid "feedaudit.validators.is_number_retail_price_nok.wrong.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_retail_price_nok.wrong.message"
+msgid "feedaudit.validators.is_number_retail_price_nok.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_retail_price_pln.nan.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_retail_price_pln.nan.help"
+msgid "feedaudit.validators.is_number_retail_price_pln.wrong.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_retail_price_pln.wrong.message"
+msgid "feedaudit.validators.is_number_retail_price_pln.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_retail_price_sek.nan.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_retail_price_sek.nan.help"
+msgid "feedaudit.validators.is_number_retail_price_sek.wrong.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_number_retail_price_sek.wrong.message"
+msgid "feedaudit.validators.is_number_retail_price_sek.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_salesprice.nan.message"
@@ -2353,9 +2344,6 @@ msgstr ""
 msgid "feedaudit.validators.is_present_additional_image_link_lower.missing.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_present_additional_image_link_lower.missing.help"
-msgstr ""
-
 msgid "feedaudit.validators.is_present_age_group.missing.message"
 msgstr ""
 
@@ -2372,9 +2360,6 @@ msgid "feedaudit.validators.is_present_any_miinto_retail_price.missing.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_any_miinto_retail_price.missing.help"
-msgstr ""
-
-msgid "feedaudit.validators.is_present_any_miinto_retail_price.missing.example"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_any_price_price_vat.missing.message"
@@ -2398,49 +2383,25 @@ msgstr ""
 msgid "feedaudit.validators.is_present_art_beschreibung.missing.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_present_art_beschreibung.missing.help"
-msgstr ""
-
 msgid "feedaudit.validators.is_present_art_img_url.missing.message"
-msgstr ""
-
-msgid "feedaudit.validators.is_present_art_img_url.missing.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_art_lieferkosten.missing.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_present_art_lieferkosten.missing.help"
-msgstr ""
-
 msgid "feedaudit.validators.is_present_art_name.missing.message"
-msgstr ""
-
-msgid "feedaudit.validators.is_present_art_name.missing.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_art_nr.missing.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_present_art_nr.missing.help"
-msgstr ""
-
 msgid "feedaudit.validators.is_present_art_preis.missing.message"
-msgstr ""
-
-msgid "feedaudit.validators.is_present_art_preis.missing.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_art_url.missing.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_present_art_url.missing.help"
-msgstr ""
-
 msgid "feedaudit.validators.is_present_art_waehrung.missing.message"
-msgstr ""
-
-msgid "feedaudit.validators.is_present_art_waehrung.missing.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_availability.missing.message"
@@ -2501,12 +2462,6 @@ msgid "feedaudit.validators.is_present_category_id.missing.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_category_lower.missing.message"
-msgstr ""
-
-msgid "feedaudit.validators.is_present_category_url.missing.message"
-msgstr ""
-
-msgid "feedaudit.validators.is_present_category_url.missing.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_categorytext.missing.message"
@@ -2657,9 +2612,6 @@ msgid "feedaudit.validators.is_present_description_lower.missing.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_description_lower.missing.help"
-msgstr ""
-
-msgid "feedaudit.validators.is_present_description_lower.missing.example"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_designation.missing.message"
@@ -2878,16 +2830,7 @@ msgstr ""
 msgid "feedaudit.validators.is_present_imgurl_alternative.missing.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_present_imgurl_alternative.missing.help"
-msgstr ""
-
-msgid "feedaudit.validators.is_present_imgurl_alternative.missing.example"
-msgstr ""
-
 msgid "feedaudit.validators.is_present_imgurl_error.missing.message"
-msgstr ""
-
-msgid "feedaudit.validators.is_present_imgurl_error.missing.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_in_stoc_camel.missing.message"
@@ -3235,9 +3178,6 @@ msgstr ""
 msgid "feedaudit.validators.is_present_product_type_lower.missing.message"
 msgstr ""
 
-msgid "feedaudit.validators.is_present_product_type_lower.missing.help"
-msgstr ""
-
 msgid "feedaudit.validators.is_present_product_url.missing.message"
 msgstr ""
 
@@ -3401,9 +3341,6 @@ msgid "feedaudit.validators.is_present_verzendkosten.missing.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_washing_lower.missing.message"
-msgstr ""
-
-msgid "feedaudit.validators.is_present_washing_lower.missing.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_unique_additional_image_link.duplicate.message"
