@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mergado\n"
 "POT-Creation-Date: 2013-06-20 18:14+0100\n"
-"PO-Revision-Date: 2021-01-22 09:19\n"
+"PO-Revision-Date: 2021-01-22 09:20\n"
 "Last-Translator: Mergado <developers@mergado.com>\n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -16,8 +16,8 @@ msgstr ""
 "X-Crowdin-Project: mergado\n"
 "X-Crowdin-Project-ID: 438154\n"
 "X-Crowdin-Language: pl\n"
-"X-Crowdin-File: /l10n/web-project/lang/sk_SK/LC_MESSAGES/feedaudit.validators.po\n"
-"X-Crowdin-File-ID: 40\n"
+"X-Crowdin-File: /l10n/web-project/lang/cs_CZ/LC_MESSAGES/feedaudit.validators.po\n"
+"X-Crowdin-File-ID: 28\n"
 
 msgid "feedaudit.validators.barcode_barcode.invalid.message"
 msgstr ""
@@ -188,9 +188,6 @@ msgid "feedaudit.validators.blacklist_visibility.forbidden.message"
 msgstr ""
 
 msgid "feedaudit.validators.blacklist_visibility.forbidden.help"
-msgstr ""
-
-msgid "feedaudit.validators.blacklist_visibility.forbidden.example"
 msgstr ""
 
 msgid "feedaudit.validators.categorytext.invalid_separator.message"
@@ -988,10 +985,16 @@ msgstr ""
 msgid "feedaudit.validators.enum_mergado_starter.wrong.help"
 msgstr ""
 
+msgid "feedaudit.validators.enum_mergado_starter.wrong.example"
+msgstr ""
+
 msgid "feedaudit.validators.enum_mergado_topseller.wrong.message"
 msgstr ""
 
 msgid "feedaudit.validators.enum_mergado_topseller.wrong.help"
+msgstr ""
+
+msgid "feedaudit.validators.enum_mergado_topseller.wrong.example"
 msgstr ""
 
 msgid "feedaudit.validators.enum_shopalike_energy_label.wrong.message"
@@ -1069,6 +1072,9 @@ msgstr ""
 msgid "feedaudit.validators.file.file_too_large.message"
 msgstr ""
 
+msgid "feedaudit.validators.file.file_too_large.help"
+msgstr ""
+
 msgid "feedaudit.validators.google_mpn_gtin.missing_false.message"
 msgstr ""
 
@@ -1144,6 +1150,9 @@ msgstr ""
 msgid "feedaudit.validators.is_number_availability.nan.help"
 msgstr ""
 
+msgid "feedaudit.validators.is_number_availability.nan.example"
+msgstr ""
+
 msgid "feedaudit.validators.is_number_availability.wrong.message"
 msgstr ""
 
@@ -1198,7 +1207,13 @@ msgstr ""
 msgid "feedaudit.validators.is_number_category_id.nan.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_number_category_id.nan.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_number_category_id.wrong.message"
+msgstr ""
+
+msgid "feedaudit.validators.is_number_category_id.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_category_max_price_vat.nan.message"
@@ -1384,7 +1399,13 @@ msgstr ""
 msgid "feedaudit.validators.is_number_current_price.nan.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_number_current_price.nan.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_number_current_price.wrong.message"
+msgstr ""
+
+msgid "feedaudit.validators.is_number_current_price.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_decimal_count.nan.message"
@@ -1438,7 +1459,13 @@ msgstr ""
 msgid "feedaudit.validators.is_number_delivery_date_pos_with_zero.nan.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_number_delivery_date_pos_with_zero.nan.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_number_delivery_date_pos_with_zero.wrong.message"
+msgstr ""
+
+msgid "feedaudit.validators.is_number_delivery_date_pos_with_zero.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_delivery_days.nan.message"
@@ -1456,19 +1483,37 @@ msgstr ""
 msgid "feedaudit.validators.is_number_delivery_delay.nan.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_number_delivery_delay.nan.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_number_delivery_delay.wrong.message"
+msgstr ""
+
+msgid "feedaudit.validators.is_number_delivery_delay.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_delivery_price.nan.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_number_delivery_price.nan.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_number_delivery_price.wrong.message"
+msgstr ""
+
+msgid "feedaudit.validators.is_number_delivery_price.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_delivery_price_cod.nan.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_number_delivery_price_cod.nan.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_number_delivery_price_cod.wrong.message"
+msgstr ""
+
+msgid "feedaudit.validators.is_number_delivery_price_cod.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_depth.nan.message"
@@ -1553,6 +1598,9 @@ msgid "feedaudit.validators.is_number_dues.wrong.message"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_dues.wrong.help"
+msgstr ""
+
+msgid "feedaudit.validators.is_number_dues.wrong.example"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_eponuda_cena.nan.message"
@@ -1969,16 +2017,31 @@ msgstr ""
 msgid "feedaudit.validators.is_number_product_price.nan.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_number_product_price.nan.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_number_product_price.wrong.message"
+msgstr ""
+
+msgid "feedaudit.validators.is_number_product_price.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_product_price_camel.nan.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_number_product_price_camel.nan.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_number_product_price_camel.wrong.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_number_product_price_camel.wrong.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_number_product_shipping.nan.message"
+msgstr ""
+
+msgid "feedaudit.validators.is_number_product_shipping.nan.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_product_shipping.wrong.message"
@@ -2011,6 +2074,9 @@ msgstr ""
 msgid "feedaudit.validators.is_number_retail_price_dkk.wrong.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_number_retail_price_dkk.wrong.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_number_retail_price_eur.nan.message"
 msgstr ""
 
@@ -2018,6 +2084,9 @@ msgid "feedaudit.validators.is_number_retail_price_eur.nan.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_retail_price_eur.wrong.message"
+msgstr ""
+
+msgid "feedaudit.validators.is_number_retail_price_eur.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_retail_price_nok.nan.message"
@@ -2029,6 +2098,9 @@ msgstr ""
 msgid "feedaudit.validators.is_number_retail_price_nok.wrong.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_number_retail_price_nok.wrong.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_number_retail_price_pln.nan.message"
 msgstr ""
 
@@ -2038,6 +2110,9 @@ msgstr ""
 msgid "feedaudit.validators.is_number_retail_price_pln.wrong.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_number_retail_price_pln.wrong.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_number_retail_price_sek.nan.message"
 msgstr ""
 
@@ -2045,6 +2120,9 @@ msgid "feedaudit.validators.is_number_retail_price_sek.nan.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_retail_price_sek.wrong.message"
+msgstr ""
+
+msgid "feedaudit.validators.is_number_retail_price_sek.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_salesprice.nan.message"
@@ -2074,13 +2152,25 @@ msgstr ""
 msgid "feedaudit.validators.is_number_shipping_camel_pos_with_zero.nan.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_number_shipping_camel_pos_with_zero.nan.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_number_shipping_camel_pos_with_zero.wrong.message"
+msgstr ""
+
+msgid "feedaudit.validators.is_number_shipping_camel_pos_with_zero.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_shipping_cost.nan.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_number_shipping_cost.nan.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_number_shipping_cost.wrong.message"
+msgstr ""
+
+msgid "feedaudit.validators.is_number_shipping_cost.wrong.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_number_shipping_pos_with_zero.nan.message"
@@ -2476,6 +2566,9 @@ msgstr ""
 msgid "feedaudit.validators.is_present_brand_camel.missing.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_present_brand_camel.missing.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_present_brand_lower.missing.message"
 msgstr ""
 
@@ -2488,6 +2581,9 @@ msgstr ""
 msgid "feedaudit.validators.is_present_brand_zbozi.missing.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_present_brand_zbozi.missing.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_present_buyurl.missing.message"
 msgstr ""
 
@@ -2497,6 +2593,9 @@ msgstr ""
 msgid "feedaudit.validators.is_present_cat_lower.missing.message"
 msgstr ""
 
+msgid "feedaudit.validators.is_present_cat_lower.missing.help"
+msgstr ""
+
 msgid "feedaudit.validators.is_present_catalog_visibility.missing.message"
 msgstr ""
 
@@ -2504,6 +2603,9 @@ msgid "feedaudit.validators.is_present_catalog_visibility.missing.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_categorie_camel.missing.message"
+msgstr ""
+
+msgid "feedaudit.validators.is_present_categorie_camel.missing.help"
 msgstr ""
 
 msgid "feedaudit.validators.is_present_category.missing.message"
@@ -5197,6 +5299,9 @@ msgstr ""
 msgid "feedaudit.validators.uppercase_manufacturer.wrong.message"
 msgstr ""
 
+msgid "feedaudit.validators.uppercase_manufacturer.wrong.help"
+msgstr ""
+
 msgid "feedaudit.validators.url_additional_image_link.invalid.message"
 msgstr ""
 
@@ -5248,6 +5353,9 @@ msgstr ""
 msgid "feedaudit.validators.url_final_url.invalid.message"
 msgstr ""
 
+msgid "feedaudit.validators.url_final_url.invalid.help"
+msgstr ""
+
 msgid "feedaudit.validators.url_image.invalid.message"
 msgstr ""
 
@@ -5263,7 +5371,13 @@ msgstr ""
 msgid "feedaudit.validators.url_image_camel.invalid.message"
 msgstr ""
 
+msgid "feedaudit.validators.url_image_camel.invalid.help"
+msgstr ""
+
 msgid "feedaudit.validators.url_image_large_urls.invalid.message"
+msgstr ""
+
+msgid "feedaudit.validators.url_image_large_urls.invalid.help"
 msgstr ""
 
 msgid "feedaudit.validators.url_image_link.invalid.message"
@@ -5281,6 +5395,9 @@ msgstr ""
 msgid "feedaudit.validators.url_image_lower.invalid.message"
 msgstr ""
 
+msgid "feedaudit.validators.url_image_lower.invalid.help"
+msgstr ""
+
 msgid "feedaudit.validators.url_image_url.invalid.message"
 msgstr ""
 
@@ -5290,7 +5407,13 @@ msgstr ""
 msgid "feedaudit.validators.url_image_url_camel.invalid.message"
 msgstr ""
 
+msgid "feedaudit.validators.url_image_url_camel.invalid.help"
+msgstr ""
+
 msgid "feedaudit.validators.url_image_url_space.invalid.message"
+msgstr ""
+
+msgid "feedaudit.validators.url_image_url_space.invalid.help"
 msgstr ""
 
 msgid "feedaudit.validators.url_imgurl.invalid.message"
@@ -5341,6 +5464,9 @@ msgstr ""
 msgid "feedaudit.validators.url_page_url.invalid.message"
 msgstr ""
 
+msgid "feedaudit.validators.url_page_url.invalid.help"
+msgstr ""
+
 msgid "feedaudit.validators.url_picture.invalid.message"
 msgstr ""
 
@@ -5380,25 +5506,49 @@ msgstr ""
 msgid "feedaudit.validators.url_product_url_space.invalid.message"
 msgstr ""
 
+msgid "feedaudit.validators.url_product_url_space.invalid.help"
+msgstr ""
+
 msgid "feedaudit.validators.url_producturl.invalid.message"
+msgstr ""
+
+msgid "feedaudit.validators.url_producturl.invalid.help"
 msgstr ""
 
 msgid "feedaudit.validators.url_shopalike_aux_picture_url_1.invalid.message"
 msgstr ""
 
+msgid "feedaudit.validators.url_shopalike_aux_picture_url_1.invalid.help"
+msgstr ""
+
 msgid "feedaudit.validators.url_shopalike_aux_picture_url_2.invalid.message"
+msgstr ""
+
+msgid "feedaudit.validators.url_shopalike_aux_picture_url_2.invalid.help"
 msgstr ""
 
 msgid "feedaudit.validators.url_shopalike_aux_picture_url_3.invalid.message"
 msgstr ""
 
+msgid "feedaudit.validators.url_shopalike_aux_picture_url_3.invalid.help"
+msgstr ""
+
 msgid "feedaudit.validators.url_shopalike_aux_picture_url_4.invalid.message"
+msgstr ""
+
+msgid "feedaudit.validators.url_shopalike_aux_picture_url_4.invalid.help"
 msgstr ""
 
 msgid "feedaudit.validators.url_shopalike_deep_url.invalid.message"
 msgstr ""
 
+msgid "feedaudit.validators.url_shopalike_deep_url.invalid.help"
+msgstr ""
+
 msgid "feedaudit.validators.url_shopalike_picture_url.invalid.message"
+msgstr ""
+
+msgid "feedaudit.validators.url_shopalike_picture_url.invalid.help"
 msgstr ""
 
 msgid "feedaudit.validators.url_url.invalid.message"
@@ -5408,6 +5558,9 @@ msgid "feedaudit.validators.url_url.invalid.help"
 msgstr ""
 
 msgid "feedaudit.validators.url_url_lower.invalid.message"
+msgstr ""
+
+msgid "feedaudit.validators.url_url_lower.invalid.help"
 msgstr ""
 
 msgid "feedaudit.validators.url_url_no_accents.invalid.message"
