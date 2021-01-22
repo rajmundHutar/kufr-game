@@ -1,0 +1,7 @@
+files:
+  - source: /web-project/lang/*/LC_MESSAGES/*.po
+    translation: >-
+      /web-project/lang/%locale_with_underscore%/LC_MESSAGES/%original_file_name%.po
+  - source: /web-project/lang/_translations/*.yml
+    translation: >-
+      /web-project/lang/_translations/%locale_with_underscore%/%original_file_name%
